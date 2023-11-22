@@ -178,7 +178,6 @@ void Store::Buy()
 						summ *= sale;
 					}
 					product.balance -= 1;
-
 				}
 			}
 		}
