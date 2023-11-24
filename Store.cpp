@@ -10,9 +10,9 @@
 #define TAB    "           "
 
 
-void Store::SaveProductsToFile(const std::string& name, char n)
+void Store::SaveProductsToFile(const std::string& name, char flag)
 {
-	std::ofstream outputFile(name, n);
+	std::ofstream outputFile(name, flag);
 
 	if (outputFile)
 	{
